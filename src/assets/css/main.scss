@@ -1,0 +1,26 @@
+.el-container{
+  overflow: hidden;
+}
+.mainContain{
+    position: relative;
+    height: 100%;
+    background-color: white;
+    // border: 1px solid red;
+    .tableContain{
+        height: calc(100% - 50px);
+        overflow-y: auto;
+    }
+    .pageBottom{
+        position: absolute;
+        bottom: 10px;
+    }
+}
+    .scrollBox::-webkit-scrollbar {
+      border-radius: 2px;
+      width: 4px;   /* 滚动条宽度， width：对应竖滚动条的宽度  height：对应横滚动条的高度*/
+      background: white;
+    }
+    .scrollBox::-webkit-scrollbar-thumb {
+      height: 20px;    /* 滚动条滑块长度 */
+      background-color: #ccc;
+    }
