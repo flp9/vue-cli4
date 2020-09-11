@@ -49,18 +49,6 @@ const routes = [
         name: "BarChart",
         title: "柱状图",
         component: () => import("views/echars/BarChart")
-      },
-      {
-        path: "LineChart",
-        name: "LineChart",
-        title: "折线图",
-        component: () => import("views/echars/LineChart")
-      },
-      {
-        path: "PieChart",
-        name: "PieChart",
-        title: "饼图",
-        component: () => import("views/echars/PieChart")
       }
     ]
   },
@@ -83,6 +71,10 @@ const routes = [
       {
         path: "/map/emap",
         component: () => import("views/map/emap")
+      },
+      {
+        path: "/map/BaiDuMap",
+        component: () => import("views/map/BaiDuMap")
       }
     ]
   }

@@ -1,5 +1,7 @@
 <template>
   <emap-main></emap-main>
+          <!--        地图不可操作-->
+<!--        <emap-main :handelMarkFlag="false"></emap-main>-->
 </template>
 
 <script>

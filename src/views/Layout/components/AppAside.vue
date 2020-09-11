@@ -66,20 +66,10 @@ export default {
           icon: "el-icon-s-data",
           children: [
             {
-              name: "柱形图",
+              name: "混合图表",
               path: "/echars/BarChart",
               icon: ""
             },
-            {
-              name: "折线图",
-              path: "/echars/LineChart",
-              icon: ""
-            },
-            {
-              name: "饼状图",
-              path: "/echars/PieChart",
-              icon: ""
-            }
           ]
         },
         {
@@ -90,6 +80,11 @@ export default {
             {
               name: "电子地图",
               path: "/map/emap",
+              icon: ""
+            },
+            {
+              name: "百度地图",
+              path: "/map/BaiDuMap",
               icon: ""
             }
           ]

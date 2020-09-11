@@ -14,6 +14,9 @@ import BaiduMap from "vue-baidu-map";
 Vue.use(BaiduMap, {
   ak: "HacdQIApCMjv5jNk6MtGEMQoO7sYKAs6"
 });
+// 引入echarts
+import echarts from 'echarts'
+Vue.prototype.$echarts = echarts
 new Vue({
   router,
   store,
