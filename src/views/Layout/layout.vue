@@ -37,13 +37,13 @@ export default {
   .el-header {
     height: 60px;
     line-height: 60px;
-    background-color: #b3c0d1;
+    background-color: #4B94DF;
   }
   .el-aside {
-    background-color: #d3dce6;
+    background-color: #2b312c;
   }
   .el-main {
-    background-color: #e9eef3;
+    background-color: #ececec;
     padding: 10px;
     overflow: hidden;
   }

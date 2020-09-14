@@ -1,6 +1,6 @@
 <template>
   <div>
-    图片瀑布流00
+    图片瀑布流
   </div>
 </template>
 
