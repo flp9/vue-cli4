@@ -3,7 +3,7 @@
     <p class="pHead">首页不知道该放点什么，就来点漂亮的玫瑰花凑凑数吧！！</p>
     <div class="content-block">
         <ul class="row-star">
-            <li></li>
+            <li>分支：fanglp</li>
             <li class="rose" data-order="3" style="position: relative;top:10px;left: 15px;"></li>
             <li class="rose" data-order="2" style="position: relative;top:20px;left: 18px;"></li>
             <li></li>
